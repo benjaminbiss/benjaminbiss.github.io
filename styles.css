@@ -80,13 +80,14 @@
     margin: 0;
     padding: 6%;
     background-image: black;
+    font-size: 1.5rem;
 }
 .banner__quote {
     color: aliceblue;
-    margin-left: 70%;
+    margin-left: 65%;
     padding-top: 30%;
     background-image: black;
-
+    font-size: 2rem;
 }
 
 .background__transition {
@@ -146,7 +147,7 @@
     flex: 50%;
     position: relative;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 12rem;
     font-size: 3rem;
 }
 
