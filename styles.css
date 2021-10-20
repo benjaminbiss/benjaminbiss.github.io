@@ -55,14 +55,31 @@
     height: 80px;
 }
 
+
 .navbar__links {
+    flex: 1;
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    position: relative;
     color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
-    padding:0 1rem;
-    height: 100%;
+    font-size: 1.25rem;
+}
+
+.navbar__links::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: aliceblue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+} 
+
+.navbar__links:hover::after{
+    width:100%;
 }
 
 .banner {
