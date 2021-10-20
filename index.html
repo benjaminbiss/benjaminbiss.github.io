@@ -17,22 +17,23 @@
             <a id="navbar__logo">BB</a>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Home</a>
+                    <a href="#home__tag" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Portfolio</a>
+                    <a href="#portfolio__tag" class="navbar__links">Projects</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">About</a>
+                    <a href="#about__tag" class="navbar__links">About</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Contact Me</a>
+                    <a href="#contact__tag" class="navbar__links">Contact Me</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!--Banner Section-->
     <div class="banner">
+        <a id="home__tag"></a>
         <div class="banner__content">
             <h1>Welcome to my portfolio.</h1>
             <h2>My name is Benjamin Bissett and I am a software developer.</h2>
@@ -41,7 +42,51 @@
             <p>“Technology is best when it brings people together.”
                 <strong>Matt Mullenweg</strong></p>
         </div>
+    </div>
+    <!--Background transistion-->
+    <div class="background__transition"></div>
     <!--Portfolio/GitHubb-->
-
+    <div class="portfolio">
+        <a id="portfolio__tag"></a>
+        <div class="portfolio__image"></div>
+        <div class="portfolio__content">
+            <div class="portfolio__current">
+                <h1>Projects</h1>
+                <p>https://github.com/benjaminbiss/MostWanted</p>
+                <p>https://github.com/benjaminbiss/Soda-Machine</p>
+                <p>https://github.com/danielramirez0/rpsls_python</p>
+                <p>https://github.com/benjaminbiss/Robots-vs-Dinosaurs</p>
+            </div>
+            <div class="portfolio__future">
+                <h1>Future Projects</h1>
+                <p>Database demo</p>
+                <p>Django demo</p>
+                <p>Pathfinding AI</p>
+            </div>
+        </div>
+    </div>
+    <!--About Me-->
+    <div class="about">
+        <a id ="about__tag"></a>
+        <div class="about__content">
+            <h1>About</h1>
+            <p>Hello, my name is Benjamin Bissett and I am a studying to become a full stack software developer.</p>
+        </div>
+        <div class="about__image"></div>
+        </div>
+    </div>
+    <!--Contact Me-->
+    <div class="contact">
+        <a id="contact__tag"></a>
+        <div class="contact__title"></div>
+        <div class="contact__content">
+            <h1>Contact Me</h1>
+            <form>
+                Name:   <input type="text" name="name" value="Enter name"><br>
+                Email:   <input type="text" name="email" value="Enter Email"><br>
+                Comment:   <input type="text" name="comment" value="Comments"><br>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

@@ -84,7 +84,79 @@
 .banner__quote {
     color: aliceblue;
     margin-left: 70%;
-    padding-top: 30%;
+    padding-top: 40%;
     background-image: black;
 
+}
+
+.background__transition {
+    height: 4rem;
+    background-image: linear-gradient(to top, white 0%, black 100%);
+    background-size: 100%;
+}
+
+.portfolio {
+    display: flex;
+    height: 600px;
+    padding: 50px;
+}  
+
+.portfolio__image {
+    flex: 50%;
+    position: relative;
+    text-align: center;
+    background-image: url(images/github.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.portfolio__content {
+    flex: 50%;
+    position: relative;
+}
+
+.portfolio__current {
+    padding-top: 6rem;
+}
+
+.portfolio__future {
+    padding-top: 6rem;
+    
+}
+
+.about {
+    display: flex;
+    height: 200px;
+    padding: 50px;
+}  
+
+.about__image {
+    flex: 50%;
+    position: relative;
+    text-align: center;
+}
+
+.about__content {
+    flex: 50%;
+    position: relative;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.contact {
+    display: flex;
+    height: 200px;
+    padding: 50px;
+}  
+
+.contact__title {
+    flex: 50%;  
+}
+
+.contact__content {
+    flex: 50%;
+    position: relative;
+    text-align: right;
+    margin-right: 20%;
 }
