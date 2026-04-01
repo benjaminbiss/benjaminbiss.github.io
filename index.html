@@ -1,103 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="This page is the portfolio for software developer, Benjamin Bissett">
-    <meta name="keywords" content="Benjamin, Bissett, software, developer, coding, technology">
-    <meta name="author" content="Benjamin Bissett">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benjamin B. Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Ben — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!--NavBar-->
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a id="navbar__logo">BB</a>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#home__tag" class="navbar__links">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#portfolio__tag" class="navbar__links">Projects</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#about__tag" class="navbar__links">About</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#contact__tag" class="navbar__links">Contact Me</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--Banner Section-->
-    <a id="home__tag"></a>
-    <div class="banner">
-        <div class="banner__content">
-            <h1>Welcome to my portfolio.</h1>
-        </div>
-        <div class="banner__quote">
-            <p>“Technology is best when it brings people together.”</p>
-            <div class="banner__author">
-                <p><i>- Matt Mullenweg</i></p>
-            </div>
-        </div>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Hi, I'm Ben.</h1>
+    <p>Welcome to my minimalist portfolio.</p>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Write a short, friendly intro about who you are and what you do.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project Title</h3>
+      <p>Short description of what it is and why it matters.</p>
     </div>
-    <!--Background transistion-->
-    <div class="background__transition">
-        <a id="portfolio__tag"></a>
+
+    <div class="project">
+      <h3>Another Project</h3>
+      <p>Another clean, simple description.</p>
     </div>
-    <!--Portfolio/GitHubb-->
-    <div class="portfolio">
-        <div class="portfolio__image"></div>
-        <div class="portfolio__content">
-            <div class="portfolio__current">
-                <h1>Projects</h1>
-                <a href="https://wombat-studios.itch.io/zombats">Zombats - Third Person Shooter</a><br>
-                
-                <a href="https://github.com/benjaminbiss/MostWanted">Most Wanted Search</a><br>
-                <a href="https://github.com/benjaminbiss/Soda-Machine">Soda Machine Testing Code</a><br>
-                <a href="https://github.com/danielramirez0/rpsls_python">Rock, Paper, Scissors, Lizard, Spock</a><br>
-                <a href="https://github.com/benjaminbiss/Robots-vs-Dinosaurs">Robots vs. Dinosaurs</a><br>
-            </div>
-            <div class="portfolio__future">
-                <h1>Upcoming Projects</h1>
-                <p>Multiplayer Ability Shooter</p>
-                <p>Grand Strategy War Game</p>
-            </div>
-        </div>
-    </div>
-    <!--About Me-->
-    <div class="about">
-        <a id ="about__tag"></a>
-        <div class="about__content">
-          <section>
-            <h1><strong>Benjamin Bissett</strong></h1>
-            <h2>Game Developer | Full Stack Software Developer | Software Engineer</h2>
-            <p>-----</p>
-            <a>I hold a Bachelor's degree in Game Development from Full Sail University, where I built a strong foundation in programming, design, and interactive media.</a>
-            <a>For over three years, I've been exploring game development as an indie developer, creating engaging and interactive experiences.</a>
-            <a>I've worked as a Software Engineer Consultant, contributing to client projects that required full-stack development, problem-solving, and a fast-paced, agile mindset.</a>
-            <a>I also completed an intensive full-stack web development bootcamp, where I deepened my skills in modern web technologies and development workflows.</a>
-            <a>Before transitioning into tech, I served for five years in U.S. Army Military Intelligence — an experience that honed my discipline, attention to detail, and ability to thrive under pressure.</a>
-          </section>
-        </div>
-        <div class="about__image"></div>
-        </div>
-    </div>
-    <!--Contact Me-->
-    <div class="contact">
-        <a id="contact__tag"></a>
-        <div class="contact__title"></div>
-        <div class="contact__content">
-            <h1>Contact Me</h1>
-            <form>
-                Name:   <input type="text" name="name" value="Enter name"><br>
-                Email:   <input type="text" name="email" value="Enter Email"><br>
-                Comment:   <input type="text" name="comment" value="Comments"><br>
-            </form>
-        </div>
-    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+  </section>
+
 </body>
 </html>
