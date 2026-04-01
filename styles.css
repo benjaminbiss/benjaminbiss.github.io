@@ -65,7 +65,8 @@ section {
 h2 {
   margin-bottom: 1rem;
   color: var(--accent);
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 .project {
